@@ -1,0 +1,19 @@
+name: putong
+version: 0.1.0
+
+authors:
+  - watsy0007 <watsy0007@gmail.com>
+
+targets:
+  putong:
+    main: src/putong.cr
+
+crystal: 0.33.0
+
+license: MIT
+
+dependencies:
+  http_proxy:
+    github: mamantoha/http_proxy
+  kemal:
+    github: kemalcr/kemal
